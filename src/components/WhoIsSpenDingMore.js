@@ -29,10 +29,14 @@ const WhoIsSpenDingMore=()=>{
        <ul>
                  
                   
-                 {users.map((user,idx) => (
-                   <li key={idx} >
-                     <p>#{idx+1} {user.username==username?"You":user.username}</p>
-                     <p>{user.username==username?`You spent \$${user.total_spent}`:`spent \$${user.total_spent}`}.00</p>
+       {users.map((user, idx) => (
+  <li key={idx}>
+    <p>#{idx + 1} {user.username === username ? "You" : user.username}</p>
+    <p>
+      {user.username === username
+        ? `You spent $${user.total_spent.toFixed(2)}`
+        : `spent $${user.total_spent.toFixed(2)}`}
+    </p>
                     
                     
                    
