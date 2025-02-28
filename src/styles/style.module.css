@@ -1,0 +1,437 @@
+@media (max-width:760px){
+    body{
+        width: 90%;
+        background-color: hwb(34 84% 2% / 0.842);
+        height: fit-content;
+    }
+    h4{
+        text-align: start;
+        margin-left:30px;
+    }
+    .navList{
+        background-color: rgba(242, 243, 242, 0.301);
+        display: flex;
+       
+        list-style: none;
+        flex-direction: row;
+        align-items: start;
+        justify-content: start;
+       
+    
+    }
+   
+    .navList >li{
+        
+        margin: 0 10px 0;
+      
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .mainContainer{
+        text-align: start;
+    }
+   
+    a{
+        color: rgb(65, 65, 65);
+    }
+
+    .formContainer{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        max-width: 400px;
+        text-align: center;
+        padding: 20px;
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: rgb(245, 253, 251);
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        margin: 4em 1em;
+    }
+    .formContainer>form{
+        display: flex;
+        flex-direction: column;
+        padding: 12px;
+        text-align: center;
+        margin-top: -2em;
+        align-items: center;
+        justify-content: center;
+    }
+
+    input{
+        margin: 12px;
+        width: 90%;
+        text-align: start;
+        height: 2em;
+        border-radius: 12px;
+        border: 1px solid rgb(37, 97, 2)  ;
+    
+    
+    }
+    h2{
+        margin-left: 25px;
+    }
+    .formContainer>form>button{
+        width: 40%;
+        height: 2rem;
+        border-radius: 10px;
+        margin-top: 1em;
+        text-align: center;
+       font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       background-color: rgb(160, 165, 160); 
+       font-weight: bold;
+       background-color: rgb(80, 180, 80);
+       color: white;
+       border: solid 1px rgba(3, 103, 233, 0.671);
+       cursor: pointer;
+    }
+    form{
+        
+       
+        align-items: center;
+        justify-content: center;
+    }
+    textarea{
+        margin: 12px;
+        width: 90%;
+        text-align: start;
+        height: 2em;
+        border-radius: 1px;
+        border: 1px solid rgb(37, 97, 2)  ;
+        height: 4rem;
+    
+    }
+    select{
+        margin: 12px;
+        width: 90%;
+        text-align: start;
+        height: 2em;
+        border-radius: 1px;
+        border: 1px solid rgb(37, 97, 2)  ;
+    }
+    select option{
+       
+        appearance: none;
+        max-width: 100%;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        position: relative;
+        cursor: pointer;
+    }
+    
+    .dashboardContainer{
+        display: flex;
+        flex-direction: column;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        width: 100%;
+        
+    }
+    .dashboardContainer>.formContainer>form {
+        align-items: center;
+        justify-content: center;
+    }
+    .expensesList >ul> li{
+        background: linear-gradient(180deg,rgba(14, 65, 133, 0.966),rgb(87, 170, 135),rgb(220, 225, 226));
+        color: rgb(224, 224, 223);
+        font-weight: 600;
+        list-style: none;
+        border: 1px springgreen;
+        padding: 13px;
+        margin: 10px 10px 10px -0.8em;
+        border-radius: 10px;
+        height: auto;
+        width: 95%;
+    }
+    .expensesList>ul{
+        overflow-y: auto;
+        overflow-x: hidden;
+        height:700px;
+        scrollbar-highlight-color: hotpink;
+    }
+    .expensesList>ul::-webkit-scrollbar{
+        display: none;
+    }
+    li >p{
+        display: block;
+        font-size: 16px;
+        margin: 0;
+    }
+    .btnsDiv{
+        display: flex;
+        margin-top: 10px;
+        
+    }
+    .btnsDiv>button{
+        margin: 2px;
+        background-color: rgb(160, 165, 160); 
+        color: rgb(54, 52, 52);
+        border: solid 1px rgba(49, 9, 228, 0.993);
+        border-radius: 5px;
+       font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .usersList >ul> li{
+        background: linear-gradient(180deg, rgba(115, 117, 119, 0.966), rgb(106, 153, 134), rgb(62, 63, 63));
+        color: rgb(1, 21, 48);
+        font-weight: 600;
+        list-style: none;
+        border: 1px springgreen;
+        padding: 13px;
+        margin: 10px 10px 10px -1.5em;
+        border-radius: 10px;
+        height: auto;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        width: 95%;
+    }
+    .usersList>ul{
+        overflow-y: auto;
+        overflow-x: hidden;
+        height:700px;
+        scrollbar-highlight-color: hotpink;
+    }
+    .usersList>ul::-webkit-scrollbar{
+        display: none;
+    }
+
+.error{
+    background-color: rgb(218, 204, 204);
+    width: 90%;
+    text-align: start;
+    margin-left: px;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    border: red 1px solid;
+    display: inline-block;
+    height: auto;
+    margin-bottom:40px;
+}
+    
+}
+
+
+@media (min-width: 761px) {
+    body {
+        width: 80%;
+        margin: 0 auto;
+        background-color: hwb(34 90% 2% / 0.95);
+        height: auto;
+    }
+    h2{
+      
+      
+
+    }
+
+    h4 {
+        text-align: left;
+        margin-left: 50px;
+    }
+
+    .navList {
+        background-color: rgba(242, 243, 242, 0.7);
+        display: flex;
+        list-style: none;
+        flex-direction: row;
+        align-items: start;
+       
+        padding: 10px;
+    }
+
+    .navList > li {
+        margin: 10px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 18px;
+    }
+
+    .mainContainer {
+        text-align: left;
+        padding: 20px;
+    }
+
+    a {
+        color: rgb(30, 30, 30);
+        text-decoration: underline burlywood;
+    }
+
+    .dashboardContainer>.formContainer {
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+        margin-left: 10rem;
+        text-align: center;
+        padding: 20px;
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: white;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        margin-top: 4em;
+    }
+    .formContainer{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        margin-left: 20rem;
+        text-align: center;
+        padding: 20px;
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: white;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        margin-top: 4em;
+    }
+
+    .formContainer > form {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        align-items: center;
+        
+    }
+    
+
+    input, textarea, select {
+        margin: 12px 0;
+        width: 95%;
+        text-align: left;
+        height: 2.5em;
+        border-radius: 5px;
+        border: 1px solid rgb(37, 97, 2);
+        padding: 5px;
+    }
+
+    h2 {
+        margin-left: 50px;
+        font-size: 24px;
+    }
+
+    .formContainer > form > button {
+        width: 50%;
+        height: 2.5rem;
+        border-radius: 10px;
+        margin-top: 1em;
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold;
+        background-color: rgb(80, 180, 80);
+        color: white;
+        border: solid 1px rgba(3, 103, 233, 0.671);
+        cursor: pointer;
+    }
+
+    .dashboardContainer {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .expensesList > ul > li {
+        background: linear-gradient(180deg, rgba(14, 65, 133, 0.966), rgb(87, 170, 135), rgb(220, 225, 226));
+        color: rgb(224, 224, 223);
+        font-weight: 600;
+        list-style: none;
+        border: 1px solid springgreen;
+        padding: 15px;
+        margin: 10px;
+        border-radius: 10px;
+        height: auto;
+        font-size: 18px;
+
+        width: 70%;
+    }
+
+    .expensesList > ul {
+        overflow-y: auto;
+        height: 500px;
+        width: 190%;
+        scrollbar-color: green;
+      
+        
+      
+      
+    }
+    .expensesList>ul::-webkit-scrollbar{
+        display: none;
+    }
+
+    .usersList > ul > li {
+        background: linear-gradient(180deg, rgba(115, 117, 119, 0.966), rgb(106, 153, 134), rgb(62, 63, 63));
+        color: rgb(1, 21, 48);
+        font-weight: 600;
+        list-style: none;
+        border: 1px solid springgreen;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+        height: 35px;
+        font-size: 10px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .usersList > ul {
+        overflow-y: auto;
+        height: 500px;
+        width: 70%;
+      
+        
+      
+      
+    }
+
+
+    .usersList > ul::-webkit-scrollbar {
+       display: none;
+    }
+
+    .expensesList > ul::-webkit-scrollbar-thumb {
+        background-color: hotpink;
+        border-radius: 5px;
+    }
+
+    li > p {
+        display: block;
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .btnsDiv {
+        display: flex;
+        justify-content:start;
+        margin-top: 10px;
+    }
+
+    .btnsDiv > button {
+        margin: 5px;
+        padding:5px;
+        font-size: 15px;
+        height: fit-content;
+        font-weight: bold;
+        background-color: rgb(160, 165, 160);
+        color: rgb(54, 52, 52);
+        border: solid 1px rgba(49, 9, 228, 0.993);
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        width: 8ren;
+
+    }
+
+    .btnsDiv > button:hover {
+        background-color: rgb(120, 130, 120);
+    }
+
+.error{
+    background-color: rgb(218, 204, 204);
+    width: 70%;
+    text-align: center;
+    margin-left: 70px;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    border: red 1px solid;
+}
+}
+
+
+
+
